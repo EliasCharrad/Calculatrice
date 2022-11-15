@@ -25,11 +25,11 @@ int main(){
         break;
     }
     
-    std::cout << "contine ?:\n y / n\n";
-    std::string answer;
+    std::cout << "\n contine ?:\n y / n\n";
+    char answer;
     std::cin >> answer;
 
-    if (answer == "y")
+    if (answer == 'y')
     {
         main();
     }
