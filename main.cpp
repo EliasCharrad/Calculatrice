@@ -4,7 +4,7 @@
 int main(){
     char op;
     double a,b;
-    std::cout << "input your calculation";
+    std::cout << "input your calculation\n";
     std::cin >> a >> op >> b;
 
     switch (op)
@@ -25,7 +25,7 @@ int main(){
         break;
     }
     
-    std::cout << "contine ?:\n y / n";
+    std::cout << "contine ?:\n y / n\n";
     std::string answer;
     std::cin >> answer;
 
